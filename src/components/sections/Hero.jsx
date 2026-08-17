@@ -178,22 +178,17 @@ const Hero = () => {
 
                             {/* React */}
                             <div className="absolute left-0 top-1/4 rounded-full border border-white/10 bg-black/70 px-5 py-2.5 text-sm text-white/60 backdrop-blur-md">
-                                React.js
+                                MERN
                             </div>
 
                             {/* JavaScript */}
                             <div className="absolute right-0 top-1/3 rounded-full border border-white/10 bg-black/70 px-5 py-2.5 text-sm text-white/60 backdrop-blur-md">
-                                JavaScript
-                            </div>
-
-                            {/* Node.js */}
-                            <div className="absolute bottom-1/4 left-8 rounded-full border border-white/10 bg-black/70 px-5 py-2.5 text-sm text-white/60 backdrop-blur-md">
-                                Node.js
+                                DSA
                             </div>
 
                             {/* Express.js */}
                             <div className="absolute bottom-1/4 left-8 rounded-full border border-white/10 bg-black/70 px-5 py-2.5 text-sm text-white/60 backdrop-blur-md">
-                                Express
+                                GEN AI
                             </div>
 
                             {/* B.tech */}

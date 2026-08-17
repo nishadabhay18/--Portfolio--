@@ -39,40 +39,40 @@ const SERVICES = [
         icon: Smartphone,
         tags: ["Responsive", "Mobile UI", "UX"],
     },
-    {
-        id: 4,
-        number: "04",
-        title: "UI Implementation",
-        description:
-            "Turning designs into polished, functional interfaces while maintaining consistency and attention to detail.",
-        icon: Palette,
-        tags: ["UI Design", "Figma", "CSS"],
-    },
-    {
-        id: 5,
-        number: "05",
-        title: "JavaScript Development",
-        description:
-            "Developing interactive functionality and dynamic web experiences using modern JavaScript.",
-        icon: Code2,
-        tags: ["ES6+", "DOM", "APIs"],
-    },
-    {
-        id: 6,
-        number: "06",
-        title: "Database Integration",
-        description:
-            "Working with backend services and databases to build applications with structured and dynamic data.",
-        icon: Database,
-        tags: ["MongoDB", "SQL", "APIs"],
-    },
+    // {
+    //     id: 4,
+    //     number: "04",
+    //     title: "UI Implementation",
+    //     description:
+    //         "Turning designs into polished, functional interfaces while maintaining consistency and attention to detail.",
+    //     icon: Palette,
+    //     tags: ["UI Design", "Figma", "CSS"],
+    // },
+    // {
+    //     id: 5,
+    //     number: "05",
+    //     title: "JavaScript Development",
+    //     description:
+    //         "Developing interactive functionality and dynamic web experiences using modern JavaScript.",
+    //     icon: Code2,
+    //     tags: ["ES6+", "DOM", "APIs"],
+    // },
+    // {
+    //     id: 6,
+    //     number: "06",
+    //     title: "Database Integration",
+    //     description:
+    //         "Working with backend services and databases to build applications with structured and dynamic data.",
+    //     icon: Database,
+    //     tags: ["MongoDB", "SQL", "APIs"],
+    // },
 ];
 
 const Services = () => {
     return (
         <section
             id="services"
-            className="relative overflow-hidden bg-black py-24 sm:py-32"
+            className="relative overflow-hidden bg-black py-18 sm:py-32"
         >
             {/* Background glow */}
             <div className="pointer-events-none absolute left-1/2 top-1/3 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-primary/5 blur-[140px]" />

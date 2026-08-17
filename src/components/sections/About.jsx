@@ -148,11 +148,11 @@ const About = () => {
                                         </p>
 
                                         <h3 className="mt-2 text-lg font-semibold text-white">
-                                            Frontend Developer
+                                            Full Stack Developer
                                         </h3>
 
                                         <p className="mt-1 text-sm leading-6 text-white/40">
-                                            React · JavaScript · Tailwind CSS
+                                            MERN · DSA · 
                                         </p>
                                     </div>
                                 </div>

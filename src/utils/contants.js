@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
     location: "India",
 
     tagline:
-        "Building modern, responsive web experiences with React, JavaScript, and creative UI design.",
+        "Building modern, responsive web experiences with MERN Stack.",
 
     resume: "/resume.pdf",
 
