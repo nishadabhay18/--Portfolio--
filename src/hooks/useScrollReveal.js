@@ -1,11 +1,20 @@
 import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const useScrollReveal = (options = {}) => {
     const elementRef = useRef(null);
 
     const {
-        threshold = 0.15,
-        rootMargin = "0px 0px -50px 0px",
+        y = 50,
+        x = 0,
+        duration = 0.8,
+        delay = 0,
+        opacity = 0,
+        start = "top 85%",
+        ease = "power3.out",
         once = true,
     } = options;
 
@@ -14,30 +23,45 @@ const useScrollReveal = (options = {}) => {
 
         if (!element) return;
 
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    element.classList.add("is-visible");
-
-                    if (once) {
-                        observer.unobserve(element);
-                    }
-                } else if (!once) {
-                    element.classList.remove("is-visible");
+        const ctx = gsap.context(() => {
+            gsap.fromTo(
+                element,
+                {
+                    opacity,
+                    x,
+                    y,
+                },
+                {
+                    opacity: 1,
+                    x: 0,
+                    y: 0,
+                    duration,
+                    delay,
+                    ease,
+                    scrollTrigger: {
+                        trigger: element,
+                        start,
+                        toggleActions: once
+                            ? "play none none none"
+                            : "play reverse play reverse",
+                    },
                 }
-            },
-            {
-                threshold,
-                rootMargin,
-            }
-        );
-
-        observer.observe(element);
+            );
+        }, element);
 
         return () => {
-            observer.disconnect();
+            ctx.revert();
         };
-    }, [threshold, rootMargin, once]);
+    }, [
+        y,
+        x,
+        duration,
+        delay,
+        opacity,
+        start,
+        ease,
+        once,
+    ]);
 
     return elementRef;
 };

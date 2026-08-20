@@ -37,31 +37,27 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background: linear-gradient(180deg,
-                #8DFF69,
-                #6FE047);
+        background: linear-gradient(
+            180deg,
+            #8DFF69,
+            #6FE047
+        );
 
         border-radius: 5px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(180deg,
-                #A8FF8D,
-                #5BC92E);
+        background: linear-gradient(
+            180deg,
+            #A8FF8D,
+            #5BC92E
+        );
     }
-
-    /* =========================
-       FIREFOX SCROLLBAR
-    ========================= */
 
     * {
         scrollbar-width: thin;
         scrollbar-color: #8DFF69 #0a0a0a;
     }
-
-    /* =========================
-       HIDE SCROLLBAR
-    ========================= */
 
     .hide-scrollbar {
         -ms-overflow-style: none;
@@ -73,58 +69,9 @@
     }
 
     /* =========================
-       ANIMATIONS
+       LINE CLAMP
     ========================= */
 
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    @keyframes pulse {
-
-        0%,
-        100% {
-            opacity: 0.3;
-        }
-
-        50% {
-            opacity: 0.5;
-        }
-    }
-
-    @keyframes spin {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    /* =========================
-       UTILITY CLASSES
-    ========================= */
-
-    .animate-fadeIn {
-        animation: fadeIn 0.5s ease-out;
-    }
-
-    .animate-pulse {
-        animation: pulse 3s ease-in-out infinite;
-    }
-
-    .animate-spin-slow {
-        animation: spin 8s linear infinite;
-    }
-
-    /* line clamp */
     .line-clamp-2 {
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -137,22 +84,5 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
         overflow: hidden;
-    }
-
-    /* =========================
-   SCROLL REVEAL
-========================= */
-
-    .scroll-reveal {
-        opacity: 0;
-        transform: translateY(40px);
-        transition:
-            opacity 0.8s ease,
-            transform 0.8s ease;
-    }
-
-    .scroll-reveal.is-visible {
-        opacity: 1;
-        transform: translateY(0);
     }
 }

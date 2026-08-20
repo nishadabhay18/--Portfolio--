@@ -18,8 +18,8 @@ export const PERSONAL_INFO = {
 
 
 export const SOCIAL_LINKS = {
-    github: "https://github.com/yourusername",
-    linkedin: "https://www.linkedin.com/in/yourusername/",
+    github: "https://github.com/nishadabhay18",
+    linkedin: "https://www.linkedin.com/in/abhay-nishad-605b0232a/",
     twitter: "https://twitter.com/yourusername",
 };
 
@@ -36,10 +36,6 @@ export const NAV_LINKS = [
     {
         name: "Skills",
         href: "#skills",
-    },
-    {
-        name: "Services",
-        href: "#services",
     },
     {
         name: "Projects",
