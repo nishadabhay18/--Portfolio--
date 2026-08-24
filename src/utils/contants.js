@@ -83,6 +83,6 @@ export const ABOUT_STATS = [
     },
     {
         label: "Technologies",
-        value: "10+",
+        value: "5+",
     },
 ];

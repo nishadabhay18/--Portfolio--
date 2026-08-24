@@ -6,7 +6,7 @@ export const projects = [
             "AI-powered resume analysis platform that evaluates resumes, identifies key skills, and provides intelligent insights to help improve job applications.",
         image: "/images/projects/project1.png",
         category: "Full Stack",
-        technologies: ["React", "Node.js", "MongoDB", "Express", "Gemini", "TailwindCSS"],
+        technologies: ["React", "Node.js", "MongoDB", "Express", "Gemini", ],
         metrics: "AI-powered analysis",
         demoUrl: "https://your-demo-url.com",
         githubUrl: "https://github.com/yourusername/smart-resume-analyzer",

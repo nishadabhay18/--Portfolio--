@@ -169,7 +169,7 @@ const Contact = () => {
                                         className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-xs font-bold text-white/50 transition-all duration-300 hover:border-primary hover:bg-primary hover:text-black"
                                         aria-label="GitHub"
                                     >
-                                        GH
+                                        <i class="ri-github-fill"></i>
                                     </a>
 
                                     {/* LinkedIn */}

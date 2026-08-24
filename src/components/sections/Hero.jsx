@@ -127,7 +127,7 @@ const Hero = () => {
                                     className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-xs font-bold text-white/50 transition-all duration-300 hover:border-primary hover:bg-primary hover:text-black"
                                     aria-label="GitHub"
                                 >
-                                    GH
+                                    <i class="ri-github-fill font-xl"></i>
                                 </a>
 
                                 {/* LinkedIn */}
