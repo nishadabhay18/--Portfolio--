@@ -8,7 +8,7 @@ export const projects = [
         category: "Full Stack",
         technologies: ["React", "Node.js", "MongoDB", "Express", "Gemini", ],
         metrics: "AI-powered analysis",
-        demoUrl: "https://your-demo-url.com",
+        liveUrl: "https://your-demo-url.com",
         githubUrl: "https://github.com/yourusername/smart-resume-analyzer",
     },
 
@@ -21,7 +21,7 @@ export const projects = [
         category: "Backend",
         technologies: ["Node.js", "Express", "MongoDB", "Nodemailer"],
         metrics: "Secure transaction management",
-        demoUrl: "https://your-demo-url.com",
+        liveUrl: "https://your-demo-url.com",
         githubUrl: "https://github.com/yourusername/banking-management-system",
     },
 
@@ -34,7 +34,7 @@ export const projects = [
         category: "Frontend",
         technologies: ["React", "Local-Storage", "TailwindCSS"],
         metrics: "CRUD-based management",
-        demoUrl: "https://your-demo-url.com",
+        liveUrl: "https://your-demo-url.com",
         githubUrl: "https://github.com/yourusername/employee-management-system",
     },
 
@@ -47,7 +47,7 @@ export const projects = [
         category: "Frontend",
         technologies: ["React", "TailwindCSS", "GSAP", "Vite"],
         metrics: "100% responsive",
-        demoUrl: "https://your-demo-url.com",
+        liveUrl: "https://your-demo-url.com",
         githubUrl: "https://github.com/nishadabhay18/--Portfolio--",
     },
 
@@ -60,7 +60,7 @@ export const projects = [
         category: "Frontend",
         technologies: ["React", "TailwindCSS", "Local-Storage"],
         metrics: "Complete shopping experience",
-        demoUrl: "https://sky-mart-blue.vercel.app/",
+        liveUrl: "https://sky-mart-blue.vercel.app/",
         githubUrl: "https://github.com/nishadabhay18/-SkyMart-",
     },
 
@@ -73,7 +73,7 @@ export const projects = [
         category: "Web App",
         technologies: ["HTML", "JavaScript", "CSS", "Local-Storage"],
         metrics: "Responsive productivity tool",
-        demoUrl: "https://productivity-dashboard-jhfk.onrender.com/",
+        liveUrl: "https://productivity-dashboard-jhfk.onrender.com/",
         githubUrl: "https://github.com/nishadabhay18/Productivity-Dashboard-",
     },
 ];
