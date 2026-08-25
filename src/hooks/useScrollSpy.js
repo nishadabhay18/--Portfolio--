@@ -8,7 +8,7 @@ const useScrollSpy = (sectionIds, offset = 100) => {
     useEffect(() => {
         const handleScroll = () => {
             let currentSection = sectionIds[0] || "";
-
+ 
             sectionIds.forEach((id) => {
                 const section = document.getElementById(id);
 
