@@ -9,7 +9,7 @@ export const projects = [
         technologies: ["React", "Node.js", "MongoDB", "Express", "Gemini", ],
         metrics: "AI-powered analysis",
         liveUrl: "https://your-demo-url.com",
-        githubUrl: "https://github.com/yourusername/smart-resume-analyzer",
+        githubUrl: "https://github.com/nishadabhay18/Smart-Resume-Analyzer",
     },
 
     {
