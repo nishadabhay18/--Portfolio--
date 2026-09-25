@@ -18,7 +18,7 @@ export const projects = [
         description:
             "Backend banking management system for handling user accounts, transactions, authentication, and automated email notifications with a secure and reliable architecture.",
         image: "/images/projects/project2.png",
-        category: "Backend",
+        category: "Backend", 
         technologies: ["Node.js", "Express", "MongoDB", "Nodemailer"],
         metrics: "Secure transaction management",
         liveUrl: "https://your-demo-url.com",
